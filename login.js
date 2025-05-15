@@ -10,7 +10,7 @@ const logoutButton = document.querySelector("#logout_button");
 
 axios.defaults.withCredentials = true;
 // 전역에서 관리
-let accessToken = "";
+const secretKey = "ozcodingschool";
 
 form.addEventListener("submit", (e) => e.preventDefault());
 
